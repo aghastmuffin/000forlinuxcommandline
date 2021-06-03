@@ -70,7 +70,6 @@ clear
 printf "Hi \n We Have Access To Your"
 sleep 0.1
 clear
-read -p "Enter Your Name: "  username
-echo "Hi $username"
-for i in `cat 000`; do echo $i; sleep 0.5; done
+read -p "Enter Your Name: "  username; echo "Hi $username"; if [ $username == "Bobcat" ]; exit; fi
+
 
