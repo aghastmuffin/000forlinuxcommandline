@@ -74,30 +74,34 @@ printf "Hi \n We Have Access To Your I"
 sleep 0.1
 clear
 printf "Hi \n We Have Access To Your In"
+#info
 sleep 0.1
 clear
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+sc() {sleep 0.1; clear;}
+printf "Hi \n We Have Access To Your Inf"
+sc()
+printf "Hi \n We Have Access To Your Info"
+sc()
+printf "Hi \n We have Access To Your Info."
+sleep 1
+clear
 printf "Loading \n \n \n ."
-sleep 0.1 
+sleep 0.1
+clear 
 printf "loading \n \n \n .."
-
-read -p "Enter Your Name: "  username; echo "Hi $username"; if [ $username == "Bobcat" ]; exit; fi
-
-
+sleep 0.1
+clear
+printf "loading \n \n \n ..."
+loadanimation() { clear; printf "Loading ."; sleep 0.1; clear; printf "Loading .."; sleep 0.1; clear; printf "loading ..."; sleep 0.1; clear;}
+loading() { clear; printf "Loading ."; sleep 0.1; clear; printf "Loading .."; sleep 0.1; clear; printf "loading ..."; sleep 0.1; clear;}
+loadanimation()
+loadanimation()
+read -p "Enter Your Name: "  username; echo "Hi $username"; if [ $username == "Bobcat_admin" ]; printf "admin accepted."; sleep 1; read -p "enter password"; if [ $username == "Password" ]; exit; fi
+loadanimation()
+loadanimation()
+loadanimation()
+loading()
+loading()
+loading()
+loading()
+#do stuff while loading then boot main py script after confirming python is installed on host machine
