@@ -70,6 +70,34 @@ clear
 printf "Hi \n We Have Access To Your"
 sleep 0.1
 clear
+printf "Hi \n We Have Access To Your I"
+sleep 0.1
+clear
+printf "Hi \n We Have Access To Your In"
+sleep 0.1
+clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+printf "Loading \n \n \n ."
+sleep 0.1 
+printf "loading \n \n \n .."
+
 read -p "Enter Your Name: "  username; echo "Hi $username"; if [ $username == "Bobcat" ]; exit; fi
 
 
