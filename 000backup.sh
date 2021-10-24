@@ -44,7 +44,7 @@ clear
 printf "Hi \n We Have Acces"
 sleep 0.1
 clear
-print "Hi \n We Have Access"
+printf "Hi \n We Have Access"
 sleep 0.1
 clear
 printf "Hi \n We Have Access "
